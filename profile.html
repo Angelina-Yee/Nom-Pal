@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="css/profile.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="/hat.png" />
+    <title>Nom-Pal Profile</title>
+
+    <!--- box icons link -->
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+    <!--- remix icons link --> 
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet"/>
+  
+    <!--- google fonts link --> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pangolin&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <!--- header -->
+    <header>
+        <a href="index.html" class="logo">
+          <img src="assets/name.png" width="110px">
+        </a>
+  
+        <ul class="navlist">
+          <li><a href="about.html">About</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+    </header>
+
+    <div class="account-info">
+        <h1>Who Are You?</h1>
+        <div class="profile">
+            <div class="profile-circle"> </div>
+            <img id="profile-picture" src="assets/boy.png" alt="Profile Picture">
+        </div>
+        <button id="change-picture">Change Picture</button>
+        <div class="form">
+            <form action="">
+                <div class="input">
+                    <input type="text" required>
+                    <label for="">Username</label>
+                </div>
+                <!-- <div class="input">
+                    <input type="text" required>
+                    <label for="">About You</label>
+                </div> -->
+                <button type="submit" class="btn">That's Me!</button>
+            </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
