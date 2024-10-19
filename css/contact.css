@@ -81,6 +81,7 @@ header{
     float: right;
     color: black;
     margin-right: -60px;
+    margin-top: -1px;
 }
 
 section{
@@ -100,31 +101,78 @@ section{
     gap: 2rem;
 }
 
-.hero-img img{
-    width: 130%;
-    height: auto;
-    margin-top: 120px;
-    margin-left: -75px;
+.hero-text1 img{
+    border-radius: 50%;
+    box-shadow: 0 0 7px darkgray;
 }
 
-.hero-text{
-    margin-left: 70px;
-    margin-right: -60px;
+.hero-text1{
+    margin-left: 0px;
+    margin-right: 0px;
     margin-top: 100px;
+    flex-direction: column;  
+    justify-content: center; 
+    align-items: center;     
+    text-align: center;
 }
 
-.hero-text h1{
+.hero-text1 h1{
     font-size: 2.3rem;
     font-weight: 900;
     margin: 15px 0;
+    margin-bottom: 7px;
 }
 
-.hero-text p{
+.hero-text1 i{
+    font-size: 30px;
+    padding: 0 10px;
+    color: rgb(94, 94, 94);
+}
+
+.hero-text1 p{
+    margin-top: 10px;
     font-size: var(--p-font);
     font-weight: 400;
     letter-spacing: 1px;
     line-height: 30px;
 }
+
+.hero-text2 img{
+    border-radius: 50%;
+    box-shadow: 0 0 7px darkgray;
+}
+
+.hero-text2{
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 100px;
+    flex-direction: column;  
+    justify-content: center; 
+    align-items: center;     
+    text-align: center;
+}
+
+.hero-text2 h1{
+    font-size: 2.3rem;
+    font-weight: 900;
+    margin: 15px 0;
+    margin-bottom: 7px;
+}
+
+.hero-text2 i{
+    font-size: 30px;
+    padding: 0 10px;
+    color: rgb(94, 94, 94);
+}
+
+.hero-text2 p{
+    margin-top: 10px;
+    font-size: var(--p-font);
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 30px;
+}
+
 .nom p{
     font-style: italic;
 }

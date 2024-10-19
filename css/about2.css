@@ -32,10 +32,12 @@ header{
     align-items: center;
     justify-content: space-between;
     transition: all .50s ease;
+    margin-top: -10px;
 }
 
 .navlist{
     display: flex; 
+    margin-right: 15px;
 }
 
 .navlist a{
@@ -43,7 +45,7 @@ header{
     margin: 0 35px;
     color: var(--text-color);
     font-size: 1.1rem;
-    transition: all .6s ease; 
+    transition: all .6s ease;
 }
 
 .navlist a:hover{
@@ -56,15 +58,19 @@ header{
 
 .nav-btn{
     display: inline-block;
-    padding: 9px 24px;
+    padding-top: 5px;
+    padding-bottom: 3px;
+    padding-left: 7px;
+    padding-right: 7px;
     background: transparent;
-    border: 2px solid var(--text-color);
-    border-radius: 7px;
+    border: 1.5px solid var(--text-color);
+    border-radius: 50%;
     color: var(--text-color);
     font-weight: 500;
     font-size: 15px; 
     transition: all .6s ease; 
     margin-right: -20px;
+    box-shadow: 0 0 7px darkgray;
 }
 
 .nav-btn:hover{
@@ -81,7 +87,7 @@ header{
     float: right;
     color: black;
     margin-right: -60px;
-    margin-top: -1px;
+    margin-top: 10px;
 }
 
 section{
