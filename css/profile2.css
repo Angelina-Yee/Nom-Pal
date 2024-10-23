@@ -137,7 +137,7 @@ h1{
     box-shadow: 0 0 7px darkgray;
 }
 
-#profile-picture {
+.profile img {
     margin-top: 50px;
     width: 150px; 
     height: 150px; 
@@ -171,4 +171,17 @@ button:hover {
 .des{
     margin-top: 40px;
     font-size: 15px;
+}
+
+.right-content img {
+    width: 55px;
+    height: 55px; 
+    border-radius: 50%; 
+    object-fit: cover; 
+    object-position: center; 
+}
+
+.right-content img.girl-image {
+    transform: scale(1.15) translateX(2px); 
+    object-position: center -20%; 
 }

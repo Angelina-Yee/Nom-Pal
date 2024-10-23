@@ -43,3 +43,18 @@ document.getElementById('log-in-form').addEventListener('submit', function(event
         this.reportValidity();
     }
 });
+
+document.addEventListener('DOMContentLoaded', function(){
+    const changeButton = document.getElementById('change-picture');
+    const profilePicture = document.getElementById('profile-picture');
+
+    if(changeButton && profilePicture){
+        changeButton.addEventListener('click', function(){
+            profilePicture.src = 'assets/girl.png';
+        });
+    }
+    else{
+        console.error('Element not found');
+    }
+});
+

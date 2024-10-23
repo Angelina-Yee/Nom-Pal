@@ -134,7 +134,7 @@ section{
 
 .hero-text1 p{
     margin-top: 10px;
-    font-size: var(--p-font);
+    font-size: 0.9rem;
     font-weight: 400;
     letter-spacing: 1px;
     line-height: 30px;
@@ -170,7 +170,7 @@ section{
 
 .hero-text2 p{
     margin-top: 10px;
-    font-size: var(--p-font);
+    font-size: 0.9rem;
     font-weight: 400;
     letter-spacing: 1px;
     line-height: 30px;
@@ -183,4 +183,17 @@ section{
 .main-hero{
     display: flex;
     align-items: center;
+}
+
+.right-content img {
+    width: 55px;
+    height: 55px; 
+    border-radius: 50%; 
+    object-fit: cover; 
+    object-position: center; 
+}
+
+.right-content img.girl-image {
+    transform: scale(1.15) translateX(2px); 
+    object-position: center -20%; 
 }
