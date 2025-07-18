@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" type="text/css" href="css/about.css" />
+    <link rel="stylesheet" type="text/css" href="css/nav-bar.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" type="image/png" href="/hat.png" />
     <title>About Nom-Pal</title>
@@ -19,40 +20,27 @@
     <link href="https://fonts.googleapis.com/css2?family=Pangolin&display=swap" rel="stylesheet">
   </head>
   <body>
-    <!--- header -->
-    <header>
-        <a href="index.html" class="logo">
-          <img src="assets/name.png" width="110px">
-        </a>
-  
-        <ul class="navlist">
-          <li><a href="about.html">About</a></li>
-          <li><a href="contact.html">Contact Us</a></li>
-        </ul>
-  
-        <div class = "right-content">
-          <a href="signup.html" class="nav-btn">Log in</a>
-          <a href="#"><i class="ri-menu-line"></i></a>
-        </div>
-      </header>
+    <!--- nav bar -->
+    <script src="js/nav-bar.js" defer></script>
+    <nav-bar></nav-bar>
 
-      <section class="hero">
-      <div class="hero-img">
-        <img src="assets/kitchen.png" >
+    <section class="hero">
+    <div class="hero-img">
+      <img src="assets/kitchen.png" >
 
+    </div>
+
+    <div class="hero-text">
+        <h1>About Us</h1>
+        <p>Nom-Pal started as a way for us, two college students, to budget our spendings for grocery and reduce waste. We wanted to make sure, we utilize all the items in our pantry when making new recipes, without having to rush to a nearby grocery store and spend more money. 
+          Sometimes, there are grocerys that go bad because we are not sure of what is left in the very back of our pantry or fridge. Nom-Pal is our pal that welcomes college students alike, and all the foodies and home chefs, to cook on a budget and minimizie space.
+        </p>
+      </br>
+      <div class = "nom">
+        <p> ~Nom Nom Nom~ </p>
       </div>
-
-      <div class="hero-text">
-          <h1>About Us</h1>
-          <p>Nom-Pal started as a way for us, two college students, to budget our spendings for grocery and reduce waste. We wanted to make sure, we utilize all the items in our pantry when making new recipes, without having to rush to a nearby grocery store and spend more money. 
-            Sometimes, there are grocerys that go bad because we are not sure of what is left in the very back of our pantry or fridge. Nom-Pal is our pal that welcomes college students alike, and all the foodies and home chefs, to cook on a budget and minimizie space.
-          </p>
-        </br>
-        <div class = "nom">
-          <p> ~Nom Nom Nom~ </p>
-        </div>
-      </div>
-    </section>
-    <script src="js/script.js"></script>
-    </body>
+    </div>
+  </section>
+  <script src="js/script.js"></script>
+  </body>
 </html>
