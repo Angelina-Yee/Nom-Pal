@@ -14,13 +14,6 @@
   --p-font: 1rem;
 }
 
-body{
-  /* background-color: var(--bg-color); */
-  color: var(--text-color);
-  background-image: radial-gradient(circle, white, #E5E4E2, #dbdad7);
-  background-size: auto;
-}
-
 header{
   position: fixed;
   width: 100%;
@@ -32,6 +25,8 @@ header{
   align-items: center;
   justify-content: space-between;
   transition: all .50s ease;
+
+  background-color: var(--bg-color);
 }
 
 .navlist{

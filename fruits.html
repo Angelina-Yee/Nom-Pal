@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <link rel="stylesheet" type="text/css" href="css/fruits.css"/>
+  <link rel="stylesheet" type="text/css" href="css/grocery-list.css"/>
   <link rel="stylesheet" type="text/css" href="css/nav-bar.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" href="/hat.png" />
@@ -21,9 +21,35 @@
 </head>
 
 <body>
-   <!--- nav bar -->
-   <script src="js/nav-bar.js" defer></script>
-   <nav-bar></nav-bar>
-   
+  <header>
+    <!--- nav bar -->
+    <script src="js/nav-bar.js" defer></script>
+    <nav-bar></nav-bar>
+  </header>
+
+  <div class="container">
+    <h1>Fruits</h1>
+
+    <form id="ingredient-form">
+      <div class="input-container">
+        <input type="text" id="ingredient-input" placeholder="Add an ingredient..." maxlength="30" required>
+        <span id="char-count" class="char-count">30 characters remaining</span>
+      </div>
+      
+      <button type="submit">Add</button>
+    </form>
+
+    <div class="ingredient-list">
+      <h2>Recently added</h2>
+      <ul id="ingredient-list"></ul>
+    </div>
+
+    <div class   = "ingredient-history">
+      <h2>Pantry</h2>
+      <ul id="items-stored"></ul>
+    </div>
+  </div>
+
+  <script src="js/pantry.js"></script>
 </body>
 </html>

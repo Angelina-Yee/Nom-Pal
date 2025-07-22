@@ -1,0 +1,115 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Pangolin", cursive;
+}
+
+:root{
+  --text-color: black;
+  --bg-color: #E5E4E2;
+
+  --p-font: 1rem;
+}
+
+body{
+  color: var(--text-color);
+  background-color: var(--bg-color);
+  background-image: url('../assets/notepad.png');
+  background-size: 50% auto;
+  background-repeat: no-repeat;
+  background-position: center 50px;
+}
+
+.container {
+  margin-top: 180px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+}
+
+h1{
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+
+h2{
+  margin-top: 40px;
+}
+
+form{
+  display: flex;
+  gap: 10px;
+}
+
+input[type="text"] {
+  flex: 1;
+  padding: 10px;
+  font-size: 1rem;
+}
+
+.input-container {
+  position: relative;
+  display: inline-block;
+  width: 100%;   
+  max-width: 400px;
+}
+
+.input-container input {
+  width: 100%;
+  padding: 8px 8px 28px 8px;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+
+.input-container .char-count {
+  position: absolute;
+  bottom: 4px;
+  right: 8px;
+  font-size: 0.75rem;
+  color: rgba(0,0,0,0.4);
+  pointer-events: none;
+  user-select: none;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+#items-stored li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px;
+  margin: 4px 0;
+  background: #e9f5e9;
+  border-radius: 4px;
+}
+
+.pantry-btn {
+  display: flex;
+  align-items: center;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 24px;
+  height: 24px;
+  font-size: 1rem;
+  line-height: 1;
+  cursor: pointer;
+  margin-left: 6px;
+}
+
+.pantry-btn:hover {
+  background: #f0f0f0;
+}
+
